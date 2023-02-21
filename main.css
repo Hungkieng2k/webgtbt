@@ -1,0 +1,259 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    outline: none;
+}
+body {
+    background: #121212;
+    font: 12px normal Arial;
+    font-family: "Raleway",Arial,Helvetica,sans-serif;
+    color:#fff;
+  }
+h1 { 
+    float: left; 
+    margin: -40px 0 0 200px;
+    text-align: center;
+}
+h5{
+    float: left; 
+    margin: 21px 0 0 25px;
+    font-size: 30px;
+    color: red;
+}
+h2 {
+    font-size: 2.7em;
+    font-weight: normal;
+    padding: 20px 0 16px 0;
+    margin: 0 0 30px;
+    text-align:center;
+    color:#2187e7;
+    text-shadow: 1px 1px 5px #000, 0 0 10px #2187e7, 0 0 20px #2187e7;
+    background:#000;
+    border-radius:2px;
+    border: 1px solid #2187e7;  
+    box-shadow: 0px 0px 200px -8px #2187e7;
+  }
+
+h3 {
+    margin: 5px;
+    font-size: 20px;
+}
+h4{
+    font-size: 24px;
+    display:block;
+    padding-bottom: 20px;
+}
+
+.wrapper { 
+    width: 1000px; 
+    margin: 0 auto; 
+    padding: 15px 40px; 
+    overflow: auto;
+}
+
+/* phần header */
+#top-bar { 
+    width: 100%; 
+    background: #F1F1F1;
+    border-bottom: 1px solid #D4D4D4;
+    height: 25px;
+}
+
+#navbar { 
+    list-style-type: none;
+    margin: 29px 0 0 0; 
+    padding: 0; float: right; 
+    font-size: 16pt;
+}
+#navbar li { 
+    display: inline; 
+}
+#navbar li a:link, #navbar li a:visited, #navbar li a:active { 
+    text-decoration: none; 
+    color: #aaaaaa; 
+    padding: 0 16px 0 10px; 
+    margin: 0; 
+    border-right: 2px solid #B4B4B4;
+}
+#navbar li a:link.last-link { 
+
+    border-right: 0px;
+}
+#navbar li a:hover { 
+
+    color: #EB6361;
+}
+
+/* phần giới thiệu */
+#top-color-splash { 
+    width: 100%; 
+    height: 4px; 
+    background: #EB6361;
+}
+.one-third { 
+    width: 70%; 
+    float: right; 
+    box-sizing: border-box; 
+    margin-top: 10px;
+    
+}
+.title { 
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.wrap-paragrap {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+/* hình ảnh */
+.two-third { 
+    width: 40%; 
+    float: left; 
+    box-sizing: border-box; 
+    padding-left: 40px; 
+    text-align: right; 
+    margin-top: 100px;
+    margin-left: -200px;
+}
+.featured-image { 
+    max-width: 200px;
+}
+
+/* my skill */
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    margin-top: 60%;
+    color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display:block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+}
+.c{
+    width: 50%;
+    animation: c 10s;
+}
+.html{
+    width: 40%;
+    animation: html 10s;
+}
+.css{
+    width: 30%;
+    animation: css 10s;
+}
+.javascript{
+    width: 10%;
+    animation: javascript 10s;
+}
+.microsoft{
+    width: 60%;
+    animation: microsoft 10s ;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+@keyframes microsoft{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+/* footer */
+.footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: black;
+}
+.noidung{
+    display:block;
+    width:100%;
+    margin-right: 30px;
+    font-size: 15px;
+    padding-right: 50px;
+}
+
+/* icon */
+.fa-phone:before {
+    content: "\f095";
+    display: inline;
+    padding-right: 10px;
+    color: #95afc0;
+}
+.fa-map-marker::before {
+    content: "";
+    display:block;
+    padding-right: 10px;
+    color: #95afc0;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    display:block;
+    padding-right: 10px;
+    color: #95afc0;
+}
+.fa-facebook:before {
+    content: "\f09a";
+    color: blue;
+    font-size: 30px;
+}
